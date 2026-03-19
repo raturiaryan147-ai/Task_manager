@@ -1,0 +1,81 @@
+/* Background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    text-align: center;
+    width: 420px;
+    padding: 25px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+
+/* Heading */
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Input field */
+input {
+    padding: 12px;
+    width: 65%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Button */
+button {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+/* Task list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Task item */
+li {
+    background: rgba(255,255,255,0.05);
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Links */
+a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #38bdf8;
+}
+
+/* Completed task */
+.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
