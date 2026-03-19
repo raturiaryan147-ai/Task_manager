@@ -1,18 +1,22 @@
 [
     {
-        "task": "Mock test (2 to 4)",
-        "done": false
-    },
-    {
-        "task": "running (6 to 7)",
-        "done": false
+        "task": "walking",
+        "done": false,
+        "priority": "High"
     },
     {
         "task": "coding",
-        "done": false
+        "done": false,
+        "priority": "Medium"
+    },
+    {
+        "task": "Mock test (2 to 4)",
+        "done": false,
+        "priority": "Low"
     },
     {
         "task": "Hindi grammar(test)",
-        "done": false
+        "done": false,
+        "priority": "High"
     }
 ]

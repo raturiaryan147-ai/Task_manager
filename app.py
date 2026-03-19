@@ -12,14 +12,20 @@ def home():
 @app.route("/add", methods=["POST"])
 def add_task():
     task = request.form.get("task")
+    priority = request.form.get("priority")
 
-    if not task or task.strip() == "":
-        return redirect("/")   # prevents empty crash
+    if not task:
+        return redirect("/")
 
     tasks = load_tasks()
-    tasks.append({"task": task, "done": False})
-    save_tasks(tasks)
 
+    tasks.append({
+        "task": task,
+        "done": False,
+        "priority": priority
+    })
+
+    save_tasks(tasks)
     return redirect("/")
 
 

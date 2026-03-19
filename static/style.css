@@ -23,13 +23,13 @@ body {
 /* Heading */
 h1 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* Input field */
 input {
-    padding: 12px;
-    width: 65%;
+    padding: 11px;
+    width: 70%;
     border-radius: 8px;
     border: none;
     outline: none;
@@ -38,11 +38,14 @@ input {
 
 /* Button */
 button {
-    padding: 12px;
+    
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
     border-radius: 8px;
     border: none;
     background: #38bdf8;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     cursor: pointer;
 }
@@ -54,8 +57,8 @@ button:hover {
 /* Task list */
 ul {
     list-style: none;
-    padding: 0;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 /* Task item */
@@ -78,4 +81,40 @@ a {
 .done {
     text-decoration: line-through;
     opacity: 0.6;
+}
+select {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    margin-left: 8px;
+    background: linear-gradient(135deg, #4a7ccc, #abb3bd);
+    color: #020202;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.priority {
+    margin-left: 10px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/* Colors */
+.High {
+    background: #334155;
+    font-size: 12px;
+    color: white;
+}
+
+.Medium {
+    background: #334155;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.Low {
+    background: #334155;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
 }
